@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" media="screen and (max-width: 764px)" href="responsive.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,500;1,600&display=swap" rel="stylesheet">
+        <script src="external.js"></script>
+    <body>
+        <header>
+        <nav id="nav">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="service.html">SERVICES</a></li>
+            <li><a href="#">TEAM</a></li>
+            <li><a href="contact2.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    </header>
+        <section>        	
+        	<div class="container">
+        		<h1>Let's Talk.</h1>
+        		<p>Let's talk about doing something different, and taking your brand to a new level.
+        			<br>Fill out the form, when we come up for air we'll respond promptly.</p>
+        			<div class="contact-box">
+        				<div class="contact-left">
+        					<h3>Send your request</h3>
+        					<form action="contact2.html" method="post" onsubmit="return validations()" class="contact-form">
+
+        						<div class="input-row">
+        							<div class="input-group">
+        								<label>Name</label>
+        								<input type="text" placeholder="Your Name Here">
+        								<p class="error" id="name_error">* Required field</p>
+        							</div>
+        							<div class="input-group">
+        								<label>Phone</label>
+        								<input type="text" placeholder="555 555 5555">
+        								<p class="error" id="phone_err">* Phone number must be 10 digits and not empty</p>
+        							</div>
+        						</div>  
+        						<div class="input-row">
+        							<div class="input-group">
+        								<label>Email</label>
+        								<input type="email" placeholder="somebody@example.com">
+        								<p class="error" id="email_error">* Invalid email address</p>
+        							</div>
+        							<div class="input-group">
+        								<label>Subject</label>
+        								<input type="text" placeholder="Write Something..">
+        							</div>
+        						</div>
+
+        						<label>Message</label>
+        						<textarea rows="5" name="comments" id="comments" placeholder="Your Message"></textarea>
+
+        						<div class="form-buttons">
+        							<button type="submit">SEND</button>
+        							<button type="reset">Reset</button>
+        						</div>
+        					</form>
+        				</div>
+        				<div class="contact-right">
+        					<h3>Reach Us</h3>
+
+        					<table>
+        						<tr>
+        							<td>Email</td>
+        							<td>hjin2@rrc.ca</td>
+        						</tr>
+        						<tr>
+        							<td>Phone</td>
+        							<td>407 939 5277</td>
+        						</tr>
+        						<tr>
+        							<td>Address</td>
+        							<td>180 Seven Seas Dr Lake Buena Vista<br>FL 32830</td>
+        						</tr>
+        					</table>
+        				</div>
+        			</div>
+        		</div>
+        	</section>
+        	<footer>
+        		<div id="footer">
+        			<span class="footbox"><a href="">SAY HELLO</a></span>
+        			<span class="footbox"><a href="">GET IN TOUCH</a></span>
+        			<span class="footbox"><a href="">START A NEW PROJECT</a></span>
+        		</div>
+        	</footer>
+        </body>
+        </html>
