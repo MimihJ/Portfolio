@@ -1,0 +1,30 @@
+*{
+    font-size: 14px ;
+}
+header{
+ flex-direction: column;
+}
+ul{
+    flex-direction: column;
+}
+ul li{
+    flex-direction: column;
+}
+#footer{
+    flex-direction:column ;
+
+}
+#product-cont{
+    margin:36px 0;
+}
+#product{
+    display: flex;
+    flex-direction: column;
+}
+#container-product{
+    flex-direction: column;
+    width: 100%;
+}
+#container-product::before{
+    height: 1500px;
+}
